@@ -4,7 +4,7 @@ import random
 import os
 import discord
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('BOT_TOKEN')
 THUMBSUP_CODE_POINT = 128077
 THUMBSDOWN_CODE_POINT = 128078
 EYES_CODE_POINT = 128064
