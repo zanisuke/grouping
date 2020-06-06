@@ -4,7 +4,7 @@ import random
 import os
 import discord
 
-TOKEN = os.environ['TOKEN']
+TOKEN = os.environ.get('TOKEN')
 THUMBSUP_CODE_POINT = 128077
 THUMBSDOWN_CODE_POINT = 128078
 EYES_CODE_POINT = 128064
@@ -22,6 +22,8 @@ reaction_member = []
 group_header_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
 client = discord.Client()
+
+print(TOKEN)
 
 
 async def grouping(member, num, channel):
