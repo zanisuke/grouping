@@ -137,6 +137,9 @@ async def on_message(message):
             return
 
         if grouping_method == 'direct':
+            if not split[3:4]:
+                await message.channel.send('※※メンバーが入力されていません※※\n')
+                return
             member = split[3].split(',')
             await grouping(member, grouping_number, message.channel)
 
