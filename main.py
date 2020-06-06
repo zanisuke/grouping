@@ -4,7 +4,7 @@ import random
 import os
 import discord
 
-TOKEN = os.environ['TOKEN']
+TOKEN = 'NzE3NzMzMjE4MzEyMjU3NTY3.Xtj5vA.sRJqbPNs5awZY11tkG6etLBBCuo'
 THUMBSUP_CODE_POINT = 128077
 THUMBSDOWN_CODE_POINT = 128078
 EYES_CODE_POINT = 128064
